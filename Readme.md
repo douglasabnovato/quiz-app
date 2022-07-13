@@ -56,6 +56,14 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - [x] 13. Create a Spinning Loader. 
 - [x] 14. Closing
 
+#### Melhorias na nova versão atual
+
+- Número de questões de três para 30
+- Número de questões do banco de questões de 10 para 50
+- Usando Url Api, o máximo do banco de questões é 50
+- Usando Local File, não há máximo do banco de questões. Basta confirar o arquivo json
+- Usando Local File, há 100 questões no banco de questões
+
 #### Manipular dados com Json
 
 - Requisição de dados da url api
@@ -82,8 +90,9 @@ fetch("./../json/questions.json")
 #### Próximo passo
 
 - [ ] Responsividade
-- [ ] Incorporar questões via json
+- [x] Incorporar questões via json
 - [ ] Mais de um jogador simultâneo
+- [ ] Exibir a categoria da questão
 
 ---
 
