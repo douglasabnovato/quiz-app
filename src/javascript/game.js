@@ -12,25 +12,27 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-/* Local JSON file : questions.json */
 let questions = [];
 
-/* Local TRIVIA : url */
 fetch(
-  "https://opentdb.com/api.php?amount=50&category=23&difficulty=easy&type=multiple"
+  "./../json/questions.json"
 )
   .then((res) => {
     return res.json();
   })
   .then((loadedQuestions) => {
-    console.log(loadedQuestions.results);
+
+    console.log("local file", loadedQuestions.results);
+
     questions = loadedQuestions.results.map((loadedQuestion) => {
       const formattedQuestion = {
         question: loadedQuestion.question,
       };
 
       const answerChoices = [...loadedQuestion.incorrect_answers];
+
       formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+
       answerChoices.splice(
         formattedQuestion.answer - 1,
         0,

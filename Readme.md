@@ -54,6 +54,29 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - [x] 13. Create a Spinning Loader. 
 - [x] 14. Closing
 
+#### Manipular dados com Json
+
+- Requisição de dados da url api
+````javascript
+/* Local TRIVIA : url > category: history*/
+fetch("https://opentdb.com/api.php?amount=50&category=23&difficulty=easy&type=multiple")
+  .then((response) => {
+    return response.json();
+  })
+  .then((loadedQuestionsUrlApi) => console.log("url api", loadedQuestionsUrlApi.results));
+```` 
+
+- Carregar dados do local file
+
+````javascript
+/*Local JSON file : questions.json > category: General Knowledge*/
+fetch("./../json/questions.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((loadedQuestionsFile) => console.log("local file", loadedQuestionsFile.results));
+```` 
+
 #### Próximo passo
 
 - [ ] Responsividade
