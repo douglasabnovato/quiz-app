@@ -22,6 +22,8 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
   <img alt="versão 1.0 do projeto - High Scores" title="#quiz-app" src="./.github/tela-6.jpg" width="400px">
 </p> 
 
+- [Hospedado]( https://douglasabnovato.github.io/quiz-app/)
+
 #### Tecnologias / Detalhes
 
 - JS
