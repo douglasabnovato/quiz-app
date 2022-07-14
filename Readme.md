@@ -64,6 +64,13 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - Usando Local File, não há máximo do banco de questões. Basta confirar o arquivo json
 - Usando Local File, há 100 questões no banco de questões
 
+#### Melhorias cumpridas
+
+- [x] Responsividade
+- [x] Incorporar questões via json
+- [x] Exibir a categoria da questão
+- [x] Corrigir caracteres no json
+
 #### Manipular dados com Json
 
 - Requisição de dados da url api
@@ -87,13 +94,9 @@ fetch("./../json/questions.json")
   .then((loadedQuestionsFile) => console.log("local file", loadedQuestionsFile.results));
 ```` 
 
-#### Próximo passo
+#### Cenário de Aperfeiçoamento
 
-- [x] Responsividade
-- [x] Incorporar questões via json
-- [ ] Mais de um jogador simultâneo
-- [x] Exibir a categoria da questão
-- [x] Corrigir caracteres no json
+Utilizar esse quiz em um evento escolar entre escolas. Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. Ser possível visualizar a pontuação de cada equipe. Montar um ambiente semelhante ao passa ou repassa.
 
 ---
 
