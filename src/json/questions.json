@@ -43,7 +43,7 @@
       "difficulty": "easy",
       "question": "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
       "correct_answer": "Cabbage Patch Kids",
-      "incorrect_answers": ["Transformers", "Care Bears", "Rubik&rsquo;s Cube"]
+      "incorrect_answers": ["Transformers", "Care Bears", "Rubik's Cube"]
     },
     {
       "category": "General Knowledge",
@@ -58,7 +58,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "How would one say goodbye in Spanish?",
-      "correct_answer": "Adi&oacute;s",
+      "correct_answer": "Adiós",
       "incorrect_answers": [" Hola", "Au Revoir", "Salir"]
     },
     {
@@ -81,7 +81,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What does the &#039;S&#039; stand for in the abbreviation SIM, as in SIM card? ",
+      "question": "What does the 'S' stand for in the abbreviation SIM, as in SIM card? ",
       "correct_answer": "Subscriber",
       "incorrect_answers": ["Single", "Secure", "Solid"]
     },
@@ -149,7 +149,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is on display in the Madame Tussaud&#039;s museum in London?",
+      "question": "What is on display in the Madame Tussaud's museum in London?",
       "correct_answer": "Wax sculptures",
       "incorrect_answers": [
         "Designer clothing",
@@ -163,7 +163,7 @@
       "difficulty": "easy",
       "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
       "correct_answer": "Spruce Goose",
-      "incorrect_answers": ["Noah&#039;s Ark", "Fat Man", "Trojan Horse"]
+      "incorrect_answers": ["Noah's Ark", "Fat Man", "Trojan Horse"]
     },
     {
       "category": "General Knowledge",
@@ -179,7 +179,7 @@
       "difficulty": "easy",
       "question": "What is the French word for 'hat'?",
       "correct_answer": "Chapeau",
-      "incorrect_answers": ["Bonnet", " &Eacute;charpe", " Casque"]
+      "incorrect_answers": ["Bonnet", "Écharpe", " Casque"]
     },
     {
       "category": "General Knowledge",
@@ -286,8 +286,8 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "In which fast food chain can you order a Jamocha Shake?",
-      "correct_answer": "Arby&#039;s",
-      "incorrect_answers": ["McDonald&#039;s", "Burger King", "Wendy&#039;s"]
+      "correct_answer": "Arby's",
+      "incorrect_answers": ["McDonald's", "Burger King", "Wendy's"]
     },
     {
       "category": "General Knowledge",
@@ -369,7 +369,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the closest planet to our solar system&#039;s sun?",
+      "question": "What is the closest planet to our solar system's sun?",
       "correct_answer": "Mercury",
       "incorrect_answers": ["Mars", "Jupiter", "Earth"]
     },
@@ -377,7 +377,7 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of NASA&rsquo;s most famous space telescope?",
+      "question": "What is the name of NASA's most famous space telescope?",
       "correct_answer": "Hubble Space Telescope",
       "incorrect_answers": ["Big Eye", "Death Star", "Millenium Falcon"]
     },
@@ -523,7 +523,7 @@
       "difficulty": "easy",
       "question": "Which of the following African countries was most successful in resisting colonization?",
       "correct_answer": "Ethiopia",
-      "incorrect_answers": ["C&ocirc;te d&rsquo;Ivoire", "Congo", "Namibia"]
+      "incorrect_answers": ["Côte d'Ivoire", "Congo", "Namibia"]
     },
     {
       "category": "History",
@@ -569,7 +569,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Manfred von Richthofen&#039;s nickname?",
+      "question": "What was Manfred von Richthofen's nickname?",
       "correct_answer": "The Red Baron",
       "incorrect_answers": [
         "The High Flying Ace",
@@ -693,7 +693,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The 'Trail of Tears' was a result of which United States President&#039;s Indian Removal Policy?",
+      "question": "The 'Trail of Tears' was a result of which United States President's Indian Removal Policy?",
       "correct_answer": "Andrew Jackson",
       "incorrect_answers": [
         "Harry S. Truman",
@@ -806,7 +806,7 @@
       "incorrect_answers": [
         "Baker Street",
         "Houses of Parliament",
-        "St Paul&#039;s Cathedral"
+        "St Paul's Cathedral"
       ]
     },
     {
@@ -850,7 +850,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
-      "correct_answer": "Harper&#039;s Ferry",
+      "correct_answer": "Harper's Ferry",
       "incorrect_answers": ["Richmond", "Harrisonburg", "Martinsburg"]
     },
     {
