@@ -33,7 +33,6 @@
     background-color: #dc3545;
 }
 
-/* HUD */
 #hud {
     display: flex;
     justify-content: space-around;
@@ -61,7 +60,6 @@
     width: 0%;
 }
 
-/* loader */
 #loader {
     border: 1.6rem solid white;
     border-radius: 50%;

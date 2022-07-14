@@ -92,7 +92,8 @@ fetch("./../json/questions.json")
 - [ ] Responsividade
 - [x] Incorporar questões via json
 - [ ] Mais de um jogador simultâneo
-- [ ] Exibir a categoria da questão
+- [x] Exibir a categoria da questão
+- [ ] Corrigir caracteres no json
 
 ---
 

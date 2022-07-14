@@ -1,4 +1,5 @@
 const question = document.getElementById("question");
+const category = document.getElementById("category");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
@@ -14,19 +15,15 @@ let availableQuestions = [];
 
 let questions = [];
 
-fetch(
-  "./../json/questions.json"
-)
+fetch("./../json/questions.json")
   .then((res) => {
     return res.json();
   })
   .then((loadedQuestions) => {
-
-    console.log("local file", loadedQuestions.results);
-
     questions = loadedQuestions.results.map((loadedQuestion) => {
       const formattedQuestion = {
         question: loadedQuestion.question,
+        category: loadedQuestion.category,
       };
 
       const answerChoices = [...loadedQuestion.incorrect_answers];
@@ -77,10 +74,13 @@ getNewQuestion = () => {
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
+  category.innerText = currentQuestion.category;
+
   choices.forEach((choice) => {
     const number = choice.dataset["number"];
     choice.innerText = currentQuestion["choice" + number];
   });
+
   availableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
 };
@@ -100,6 +100,7 @@ choices.forEach((choice) => {
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
+
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
       getNewQuestion();
