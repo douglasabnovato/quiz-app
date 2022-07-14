@@ -98,6 +98,9 @@ fetch("./../json/questions.json")
 
 Utilizar esse quiz em um evento escolar entre escolas. Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. Ser possível visualizar a pontuação de cada equipe. Montar um ambiente semelhante ao passa ou repassa.
 
+- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
+- [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
+
 ---
 
 .: Por [Douglas A B Novato](https://linktr.ee/douglasabnovato) 
