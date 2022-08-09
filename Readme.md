@@ -35,6 +35,7 @@ Montar um ambiente semelhante ao programa passa ou repassa.
 </p> 
 
 - [Hospedado]( https://douglasabnovato.github.io/quiz-app/)
+- adicionar o botão de desistir durante o quiz
 
 #### Tecnologias / Detalhes
 
