@@ -13,6 +13,18 @@
 Um quiz que consome as questões da api Open Trivia DB API. Salva os ponto no Local Storage.
 Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
 
+#### versão 2.0
+
+Utilizar esse quiz em um evento escolar entre escolas. 
+Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. 
+Ser possível visualizar a pontuação de cada equipe. 
+Montar um ambiente semelhante ao programa passa ou repassa.
+
+- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
+- [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
+
+#### versão 1.0
+
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1.jpg" width="400px">
   <img alt="versão 1.0 do projeto - Loading" title="#quiz-app" src="./.github/tela-2.jpg" width="400px">
@@ -61,7 +73,7 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - Número de questões de três para 30
 - Número de questões do banco de questões de 10 para 50
 - Usando Url Api, o máximo do banco de questões é 50
-- Usando Local File, não há máximo do banco de questões. Basta confirar o arquivo json
+- Usando Local File, não há máximo do banco de questões. Basta configurar o arquivo json
 - Usando Local File, há 100 questões no banco de questões
 
 #### Melhorias cumpridas
@@ -93,13 +105,6 @@ fetch("./../json/questions.json")
   })
   .then((loadedQuestionsFile) => console.log("local file", loadedQuestionsFile.results));
 ```` 
-
-#### Cenário de Aperfeiçoamento
-
-Utilizar esse quiz em um evento escolar entre escolas. Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. Ser possível visualizar a pontuação de cada equipe. Montar um ambiente semelhante ao passa ou repassa.
-
-- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
-- [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
 
 ---
 
