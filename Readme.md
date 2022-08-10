@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1.jpg">
+  <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg">
 </p>  
 
 ---
@@ -15,18 +15,30 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 
 #### versão 2.0
 
-Utilizar esse quiz em um evento escolar entre escolas. 
-Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. 
-Ser possível visualizar a pontuação de cada equipe. 
-Montar um ambiente semelhante ao programa passa ou repassa.
+- Utilizar esse quiz em um evento escolar entre escolas. 
+- Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. 
+- Ser possível visualizar a pontuação de cada equipe. 
+- Montar um ambiente semelhante ao programa passa ou repassa.
 
 - [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
 - [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
+- telas</br>
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg" width="400px">
+</p>
+- identidade visual</br>
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Logo" title="#quiz-app" src="./.github/cm-2.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-3.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
+</p>
 
 #### versão 1.0
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1.jpg" width="400px">
+  <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-A.jpg" width="400px">
   <img alt="versão 1.0 do projeto - Loading" title="#quiz-app" src="./.github/tela-2.jpg" width="400px">
   <img alt="versão 1.0 do projeto - Correct Answer" title="#quiz-app" src="./.github/tela-3.jpg" width="400px">
   <img alt="versão 1.0 do projeto - Wrong Answer" title="#quiz-app" src="./.github/tela-4.jpg" width="400px">
@@ -35,6 +47,7 @@ Montar um ambiente semelhante ao programa passa ou repassa.
 </p> 
 
 - [Hospedado]( https://douglasabnovato.github.io/quiz-app/)
+- adicionar o botão de desistir durante o quiz
 
 #### Tecnologias / Detalhes
 
