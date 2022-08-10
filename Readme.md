@@ -28,11 +28,11 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 </p>
 - identidade visual</br>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/cm-2.jpeg" width="300px">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/cm-3.jpeg" width="300px">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Logo" title="#quiz-app" src="./.github/cm-2.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-3.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
+  <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
 </p>
 
 #### versão 1.0
