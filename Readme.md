@@ -10,8 +10,9 @@
 
 ### Sobre projeto 
 
-Um quiz que consome as questões da api Open Trivia DB API. Salva os ponto no Local Storage.
-Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
+- Um quiz que consome as questões da api Open Trivia DB API. 
+- Salva os ponto no Local Storage.
+- Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
 
 #### versão 2.0
 
