@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
     <title>Play</title>
-    <link rel="stylesheet" href="../styles/app.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
     <link rel="stylesheet" href="../styles/game.css" />
   </head>
   <body>
+
     <div class="container">
+
       <div id="loader"></div>
+      
       <div id="game" class="justify-center flex-column hidden">
         <div id="hud">
           <div id="hud-item">
@@ -25,7 +28,7 @@
           </div>
         </div>
         <div>
-          <h2 id="question"></h2>
+          <h3 id="question"></h3>
           <h4 id="category"></h4>
         </div>
         <div class="choice-container">
@@ -45,7 +48,9 @@
           <p class="choice-text" data-number="4"></p>
         </div>
       </div>
+
     </div>
+
     <script src="../javascript/game.js"></script>
   </body>
 </html>

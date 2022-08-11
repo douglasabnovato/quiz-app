@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg">
 </p>  
 
 ---
@@ -19,14 +19,16 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. 
 - Ser possível visualizar a pontuação de cada equipe. 
 - Montar um ambiente semelhante ao programa passa ou repassa.
-
 - [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
 - [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
 - telas</br>
+
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg" width="400px">
 </p>
+
 - identidade visual</br>
+
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
   <img alt="versão 2.0 do projeto - Logo" title="#quiz-app" src="./.github/cm-2.jpeg" width="300px">
@@ -34,6 +36,20 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
 </p>
+
+- [Inspiração - Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://dev.to/codingnepal/create-a-quiz-app-with-timer-using-html-css-javascript-55lf)
+- [Inspiração - Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/)
+- [Inspiração - Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://www.youtube.com/watch?v=pQr4O1OITJo)
+- [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://developer.salesforce.com/blogs/2020/01/introducing-a-multiplayer-quiz-app-built-on-salesforce-technology)
+- [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://dev.to/sjohn0314/using-a-quiz-app-for-remote-team-building-during-a-pandemic-fpf)
+- [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://www.youtube.com/watch?v=vLTZ_jdwhRo)
+- [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://github.com/developerforce/quiz-host-app)
+- [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://github.com/developerforce/quiz-player-app)
+- [Inspiração - Tutorial: how to build a multi-player quiz app with Sails.js](https://www.joanmira.com/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/)
+- [Inspiração - Tutorial: how to build a multi-player quiz app with Sails.js](https://github.com/gazpachu/quizwars)
+- [Inspiração - multiplayer quiz app architecture](https://ably.com/topic/multiplayer-quiz-app-architecture)
+- [Inspiração - multiplayer quiz app architecture](https://github.com/ably-labs/realtime-quiz-framework)
+- [Inspiração - multiplayer quiz app architecture](https://quiz.ably.dev/)
 
 #### versão 1.0
 
