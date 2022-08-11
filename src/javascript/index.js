@@ -1,6 +1,10 @@
 //selecting all required elements
-const start_btn = document.querySelector(".start_btn button");
+const start_btn = document.querySelector(".start_btn #button_play");
 const info_box = document.querySelector(".info_box");
+
+const highscores = document.querySelector("#highscores");
+console.log("highscores", highscores)
+
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
@@ -43,7 +47,13 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
-  quiz_box.classList.add("activeQuiz"); //show quiz box
+  
+  localStorage.setItem("mostRecentScore", userScore); /*go to the end page*/
+  return window.location.assign("./src/pages/end.html");
+  
+  /** 
+   * 
+   *   quiz_box.classList.add("activeQuiz"); //show quiz box
   result_box.classList.remove("activeResult"); //hide result box
   timeValue = 15;
   que_count = 0;
@@ -58,6 +68,8 @@ restart_quiz.onclick = () => {
   startTimerLine(widthValue); //calling startTimerLine function
   timeText.textContent = "Tempo Restante"; //change the text of timeText to Time Left
   next_btn.classList.remove("show"); //hide the next button
+  */
+
 };
 
 // if quitQuiz button clicked

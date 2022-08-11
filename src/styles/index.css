@@ -1,78 +1,3 @@
-/* ANALISAR 
-
-
-h1, h2, h3, h4 {
-    margin-bottom: 1rem;
-}
-
-h1 {
-    font-size: 5.4rem;
-    color: #56a5eb;
-    margin-bottom: 5rem;
-}
-
-h1>span {
-    font-size: 2.4rem;
-    font-weight: 500;
-}
-
-h2 {
-    font-size: 4.2rem;
-    margin-bottom: 4rem;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 2.8rem;
-    font-weight: 500;
-}
-
-
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-.container>* {
-    width: 100%;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.hidden {
-    display: none;
-} 
-
-.btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow: none;
-    transform: none;
-}
-
-ANALISAR */
-
 /* importing google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
@@ -138,8 +63,23 @@ ANALISAR */
     cursor: pointer;
 }
 
+.start_btn #button_score {
+    font-size: 20px;
+    font-weight: 500;
+    color: #007bff;
+    width: 250px;
+    height: 75px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .info_box {
-    width: 540px;
+    width: 610px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -206,6 +146,15 @@ ANALISAR */
     background: #0263ca;
 }
 
+.buttons button.salvar {
+    color: #fff;
+    background: #007bff;
+}
+
+.buttons button.salvar:hover {
+    background: #0263ca;
+}
+
 .buttons button.quit {
     color: #007bff;
     background: #fff;
@@ -215,11 +164,12 @@ ANALISAR */
     color: #fff;
     background: #007bff;
 }
+
 /* END - Home - index.html */
 
 /* Quiz Box */
 .quiz_box {
-    width: 550px;
+    width: 610px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -417,6 +367,7 @@ footer button.show {
     pointer-events: auto;
     transform: scale(1);
 }
+
 /* End - Quiz Box */
 
 /* Result Box */
@@ -476,6 +427,7 @@ footer button.show {
     border: 1px solid #007bff;
     transition: all 0.3s ease;
 }
+
 /* End - Result Box */
 
 /* high Scores */
@@ -493,4 +445,5 @@ footer button.show {
 .high-score:hover {
     transform: scale(1.025);
 }
+
 /* end - high Scores */
