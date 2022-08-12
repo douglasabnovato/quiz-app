@@ -82,7 +82,7 @@
 #### Correções
 
 - [ ] exibir questão certa quando o tempo termina quando não respondido
-- [ ] corrigir o link de ir para home na página maiores pontuações
+- [x] corrigir o link de ir para home na página maiores pontuações
 
 ---
 
