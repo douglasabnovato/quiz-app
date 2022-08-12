@@ -45,7 +45,7 @@
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
 </p>
 - [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
-- [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
+- [III DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
 
 #### Inspiração
 
