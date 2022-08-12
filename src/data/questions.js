@@ -2,6 +2,9 @@
 let questions = [
     {
       numb: 1,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "What does HTML stand for?",
       answer: "Hyper Text Markup Language",
       options: [
@@ -13,6 +16,9 @@ let questions = [
     },
     {
       numb: 2,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "What does CSS stand for?",
       answer: "Cascading Style Sheet",
       options: [
@@ -24,6 +30,9 @@ let questions = [
     },
     {
       numb: 3,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "What does PHP stand for?",
       answer: "Hypertext Preprocessor",
       options: [
@@ -35,6 +44,9 @@ let questions = [
     },
     {
       numb: 4,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "What does SQL stand for?",
       answer: "Structured Query Language",
       options: [
@@ -46,6 +58,9 @@ let questions = [
     },
     {
       numb: 5,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "What does XML stand for?",
       answer: "eXtensible Markup Language",
       options: [
@@ -57,9 +72,21 @@ let questions = [
     },
     {
       numb: 6,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
       question: "Qual o melhor time?",
       answer: "Palmeiras",
       options: ["Flamengo", "São Paulo", "Palmeiras", "Santos"],
+    },
+    {
+      numb: 7,
+      category: "General Knowledge",
+      type: "multiple",
+      difficulty: "easy",
+      question: "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      answer: "Richard Branson",
+      options: ["Richard Branson","Alan Sugar", "Donald Trump", "Bill Gates"],
     },
   ];
   

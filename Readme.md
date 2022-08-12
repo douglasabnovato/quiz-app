@@ -29,8 +29,8 @@
 - Página Quiz - Adicionar barra de progresso de questões a responder: desisit de inserir uma segunda barra de progresso na tela.
 - [x] Página End - Salvar Pontuação
 - [x] Estilização da página Salvar Pontuação
-- [ ] Ajustar requisição das questões com json
-- [ ] Ajustar requisição das questões com um file
+- [x] Ajustar requisição das questões com um file js: usar as questões no arquivo json como fonte e passar para o padrão.
+- Ajustar requisição das questões com json: usar como fonte de questões
 
 #### Telas
 

@@ -5,14 +5,6 @@
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
-      "correct_answer": "Richard Branson",
-      "incorrect_answers": ["Alan Sugar", "Donald Trump", "Bill Gates"]
-    },
-    {
-      "category": "General Knowledge",
-      "type": "multiple",
-      "difficulty": "easy",
       "question": "Which company did Valve cooperate with in the creation of the Vive?",
       "correct_answer": "HTC",
       "incorrect_answers": ["Oculus", "Google", "Razer"]
