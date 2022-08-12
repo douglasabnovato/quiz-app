@@ -31,7 +31,6 @@
 - [x] Estilização da página Salvar Pontuação
 - [ ] Ajustar o reloader das questões com json
 - [ ] Ajustar o reloader das questões com um file
-- [ ] Ajustar o reloader das questões com api
 
 #### Telas
 
