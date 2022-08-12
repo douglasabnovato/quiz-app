@@ -22,7 +22,7 @@
 #### Tarefas
 
 - [x] Página Home: botão jogar o quiz e o maiores pontuações
-- [ ] Estilização da página maiores pontuações
+- [x] Estilização da página maiores pontuações
 - [ ] Componente Loader para as transições de páginas com requisição
 - [ ] Página Quiz - Adicionar a pontuação em tempo real
 - [ ] Página Quiz - Adicionar letras para identificar opção de respostas
