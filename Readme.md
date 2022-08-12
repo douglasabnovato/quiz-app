@@ -36,6 +36,8 @@
 
 #### Identidade Visual
 
+- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
+- [III DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
 - logo e banner</br>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
@@ -44,8 +46,6 @@
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
 </p>
-- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
-- [III DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
 
 #### Inspiração
 
