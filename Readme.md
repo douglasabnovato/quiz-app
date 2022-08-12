@@ -27,7 +27,8 @@
 - [ ] Página Quiz - Adicionar a pontuação em tempo real
 - [ ] Página Quiz - Adicionar letras para identificar opção de respostas
 - [ ] Página Quiz - Adicionar barra de progresso de questões a responder
-- [ ] Página End - Salvar Pontuação
+- [x] Página End - Salvar Pontuação
+- [ ] Estilização da página Salvar Pontuação
 
 #### Telas
 
