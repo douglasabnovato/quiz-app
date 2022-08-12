@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-C.jpg">
 </p>  
 
 ---
@@ -21,7 +21,8 @@
 
 #### Tarefas
 
-- [ ] Página Home
+- [x] Página Home: botão jogar o quiz e o maiores pontuações
+- [ ] Estilização da página maiores pontuações
 - [ ] Componente Loader para as transições de páginas com requisição
 - [ ] Página Quiz - Adicionar a pontuação em tempo real
 - [ ] Página Quiz - Adicionar letras para identificar opção de respostas
@@ -31,7 +32,10 @@
 #### Telas
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Info" title="#quiz-app" src="./.github/tela-2-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-3-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-4-C.jpg" width="400px">
 </p>
 
 #### Identidade Visual
