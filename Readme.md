@@ -78,6 +78,11 @@
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-7-C.jpg" width="400px">
 </p>
 
+#### Correções
+
+- [ ] exibir questão certa quando o tempo termina quando não respondido
+- [ ] corrigir o link de ir para home na página maiores pontuações
+
 ---
 
 ### versão 1.0 - Sobre projeto
