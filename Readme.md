@@ -76,6 +76,7 @@
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-5-C.jpg" width="400px">
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-6-C.jpg" width="400px">
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-7-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-8-C.jpg" width="400px">
 </p>
 
 #### Correções
