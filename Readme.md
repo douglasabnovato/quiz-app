@@ -39,6 +39,9 @@
   <img alt="versão 2.0 do projeto - Info" title="#quiz-app" src="./.github/tela-2-C.jpg" width="400px">
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-3-C.jpg" width="400px">
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-4-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-5-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-6-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-7-C.jpg" width="400px">
 </p>
 
 #### Identidade Visual
