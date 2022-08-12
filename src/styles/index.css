@@ -339,6 +339,18 @@ footer .total_que span p {
 
 footer .total_que span p:first-child {
     padding-left: 0px;
+} 
+
+footer .hud-item {
+    display: inline-block;
+}
+
+footer .hud-prefix {
+    text-align: center;
+}
+
+footer .hud-main-text {
+    text-align: center;
 }
 
 footer button {
@@ -449,3 +461,4 @@ footer button.show {
 }
 
 /* end - high Scores */
+

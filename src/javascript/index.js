@@ -3,7 +3,8 @@ const start_btn = document.querySelector(".start_btn #button_play");
 const info_box = document.querySelector(".info_box");
 
 const highscores = document.querySelector("#highscores");
-console.log("highscores", highscores)
+console.log("highscores", highscores);
+const scoreTextPoint = document.getElementById("score");
 
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
@@ -12,7 +13,7 @@ const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
-const timeCount = document.querySelector(".timer .timer_sec"); 
+const timeCount = document.querySelector(".timer .timer_sec");
 
 // if startQuiz button clicked
 start_btn.onclick = () => {
@@ -47,10 +48,10 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
-  
   localStorage.setItem("mostRecentScore", userScore); /*go to the end page*/
+
+  console.log("userScore", userScore);
   return window.location.assign("./src/pages/end.html");
-  
   /** 
    * 
    *   quiz_box.classList.add("activeQuiz"); //show quiz box
@@ -69,7 +70,6 @@ restart_quiz.onclick = () => {
   timeText.textContent = "Tempo Restante"; //change the text of timeText to Time Left
   next_btn.classList.remove("show"); //hide the next button
   */
-
 };
 
 // if quitQuiz button clicked
@@ -150,6 +150,9 @@ function optionSelected(answer) {
   if (userAns == correcAns) {
     //if user selected option is equal to array's correct answer
     userScore += 1; //upgrading score value with 1
+    //aqui
+    scoreTextPoint.innerHTML = (userScore * 10);
+    console.log("scoreTextPoint",userScore)
     answer.classList.add("correct"); //adding green color to correct selected option
     answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
     console.log("Correct Answer");
@@ -184,27 +187,27 @@ function showResult() {
     //creating a new span tag and passing the user score number and total question number
     let scoreTag =
       "<span>E parabéns!! 🎉, você fez <p>" +
-      userScore +
+      (userScore * 10) +
       "</p> de <p>" +
-      questions.length +
+      (questions.length * 10) +
       "</p></span>";
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
   } else if (userScore > 1) {
     // if user scored more than 1
     let scoreTag =
       "<span>E legal 😎, você fez  <p>" +
-      userScore +
+      (userScore * 10) +
       "</p> de <p>" +
-      questions.length +
+      (questions.length * 10) +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   } else {
     // if user scored less than 1
     let scoreTag =
       "<span>e desculpe 😐, Você fez apenas <p>" +
-      userScore +
+      (userScore * 10) +
       "</p> de <p>" +
-      questions.length +
+      (questions.length * 10) +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   }
