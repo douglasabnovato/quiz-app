@@ -38,6 +38,8 @@
 - [Inspiração - multiplayer quiz app architecture](https://github.com/ably-labs/realtime-quiz-framework)
 - [Inspiração - multiplayer quiz app architecture](https://quiz.ably.dev/)
 
+---
+
 ### versão 2.0 - Sobre projeto
 
 - Utilizar esse quiz em um evento escolar entre escolas. 
@@ -75,6 +77,8 @@
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-6-C.jpg" width="400px">
   <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-7-C.jpg" width="400px">
 </p>
+
+---
 
 ### versão 1.0 - Sobre projeto
 
