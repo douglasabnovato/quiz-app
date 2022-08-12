@@ -42,6 +42,7 @@
     gap: 7px;
 }
 
+.start_btn.activeInfo,
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult {
@@ -473,9 +474,16 @@ footer button.show {
 
 /* end - high Scores */
 
-
+#page-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
 
 #loader {
+    margin-top: 4rem;
     border: 1.6rem solid white;
     border-radius: 50%;
     border-top: 1.6rem solid #56a5eb;

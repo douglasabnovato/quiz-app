@@ -1,4 +1,5 @@
 //selecting all required elements
+const start_btn_home = document.querySelector(".start_btn");
 const start_btn = document.querySelector(".start_btn #button_play");
 const info_box = document.querySelector(".info_box");
 const highscores = document.querySelector("#highscores");
@@ -11,6 +12,7 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+
 const loader = document.getElementById("loader");
 loader.classList.add("hidden");
 
@@ -26,15 +28,19 @@ exit_btn.onclick = () => {
 
 // if continueQuiz button clicked
 continue_btn.onclick = () => {
+  
   info_box.classList.remove("activeInfo"); //hide info box
-  quiz_box.classList.add("activeQuiz"); //show quiz box
-  loader.classList.remove("hidden");
+  start_btn_home.classList.add("hidden");
 
+  loader.classList.remove("hidden");
+  console.log("myTimeout")  
   const myTimeout = setTimeout(startQuiz, 3000);
 
   function startQuiz() {  
     console.log("startQuiz")  
     loader.classList.add("hidden");
+    start_btn_home.classList.remove("hidden");
+    quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     startTimer(15); //calling startTimer function
