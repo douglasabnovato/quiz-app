@@ -13,23 +13,11 @@
     />
   </head>
   <body id="page-home">
-    <!-- <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <a class="btn" id="button-play" href="./src/pages/game.html"
-          >Jogar o QUIZ</a
-        >
-        <a class="btn" id="button-score" href="./src/pages/highscores.html"
-          >Maiores Pontuações</a
-        >
-      </div>
-    </div>-->
-
     <!-- start Quiz button -->
     <div class="start_btn">
       <button class="btn" id="button_play">Jogar o Quiz</button>
-      <button class="btn" id="button_score">Maiores Pontuações</button>
+      <a class="btn" id="button_score"href="./src/pages/highscores.html">Maiores Pontuações</a>
     </div>
-
     <!-- Info Box -->
     <div class="info_box">
       <div class="info-title"><span>Algumas regras deste Quiz</span></div>
@@ -38,16 +26,16 @@
           1. Você terá apenas<span> 15 segundos</span> para cada pergunta.
         </div>
         <div class="info">
-          2. Depois de selecionar sua resposta, ela não pode ser desfeita.
+          2. Depois de selecionar sua resposta não pode ser desfeita.
         </div>
         <div class="info">
-          3. Você não pode selecionar nenhuma opção depois que o tempo acabar.
+          3. Você não pode selecionar opção depois que o tempo acabar.
         </div>
         <div class="info">
           4. Você não pode sair do Quiz enquanto estiver jogando.
         </div>
         <div class="info">
-          5. Você receberá pontos com base em suas respostas corretas.
+          5. Você receberá 10 pontos por resposta correta.
         </div>
       </div>
       <div class="buttons">
@@ -55,7 +43,6 @@
         <button class="restart">Continuar</button>
       </div>
     </div>
-
     <!-- Quiz Box -->
     <div class="quiz_box">
       <header>
@@ -74,7 +61,6 @@
           <!-- Here I've inserted options from JavaScript -->
         </div>
       </section>
-
       <!-- footer of Quiz Box -->
       <footer>
         <div class="total_que">
@@ -83,7 +69,6 @@
         <button class="next_btn">Próxima Questão</button>
       </footer>
     </div>
-
     <!-- Result Box -->
     <div class="result_box">
       <div class="icon">
@@ -94,18 +79,10 @@
         <!-- Here I've inserted Score Result from JavaScript -->
       </div>
       <div class="buttons">
-        <button class="restart">Repetir Quiz</button>
+        <button class="restart">Salvar Quiz</button>
         <button class="quit">Sair do Quiz</button>
       </div>
     </div>
-
-    <!-- high scores  
-    <div id="highscores" class="flex-center flex-column">
-      <h1 id="finalScore">High Scores</h1>
-      <ul id="highScoresList"></ul>
-      <a class="btn" href="/">Go Home</a>
-    </div>-->
-
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="./src/data/questions.js"></script>
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->

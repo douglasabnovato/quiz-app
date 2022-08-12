@@ -8,27 +8,37 @@
 
 ---
 
-### Sobre projeto 
+### Próximo Passo
 
-Um quiz que consome as questões da api Open Trivia DB API. Salva os ponto no Local Storage.
-Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
+- tornar um quiz multiplayer (pesquisar sobre socket.io)
 
-#### versão 2.0
+### versão 2.0 - Sobre projeto
 
 - Utilizar esse quiz em um evento escolar entre escolas. 
 - Serão três equipes que responderão cada uma equipe com o seu tablet/smartphone. 
 - Ser possível visualizar a pontuação de cada equipe. 
 - Montar um ambiente semelhante ao programa passa ou repassa.
-- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
-- [3º DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
-- telas</br>
+
+#### Tarefas
+
+- [ ] Página Home
+- [ ] Componente Loader para as transições de páginas com requisição
+- [ ] Página Quiz - Adicionar a pontuação em tempo real
+- [ ] Página Quiz - Adicionar letras para identificar opção de respostas
+- [ ] Página Quiz - Adicionar barra de progresso de questões a responder
+- [ ] Página End - Salvar Pontuação
+
+#### Telas
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg" width="400px">
 </p>
 
-- identidade visual</br>
+#### Identidade Visual
 
+- [IV DGC (Desafio Global do Conhecimento)](http://www.depa.eb.mil.br/videos?videoid=TjotKh5X22w) 
+- [III DGC (Desafio Global do Conhecimento)](https://twitter.com/exercitooficial/status/1047857676510797825)
+- logo e banner</br>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-1.jpeg" width="300px">
   <img alt="versão 2.0 do projeto - Logo" title="#quiz-app" src="./.github/cm-2.jpeg" width="300px">
@@ -36,6 +46,8 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-4.jpeg" width="300px">
   <img alt="versão 2.0 do projeto - Banner" title="#quiz-app" src="./.github/cm-5.jpeg" width="300px">
 </p>
+
+#### Inspiração
 
 - [Inspiração - Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://dev.to/codingnepal/create-a-quiz-app-with-timer-using-html-css-javascript-55lf)
 - [Inspiração - Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/)
@@ -51,7 +63,13 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - [Inspiração - multiplayer quiz app architecture](https://github.com/ably-labs/realtime-quiz-framework)
 - [Inspiração - multiplayer quiz app architecture](https://quiz.ably.dev/)
 
-#### versão 1.0
+### versão 1.0 - Sobre projeto
+
+- Um quiz que consome as questões da api Open Trivia DB API. 
+- Salva os ponto no Local Storage.
+- Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
+
+#### Telas
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-A.jpg" width="400px">
@@ -63,7 +81,6 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 </p> 
 
 - [Hospedado]( https://douglasabnovato.github.io/quiz-app/)
-- adicionar o botão de desistir durante o quiz
 
 #### Tecnologias / Detalhes
 
