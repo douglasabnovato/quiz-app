@@ -1,5 +1,5 @@
 <h3 align="center">
-  Quiz App 🚀
+  Incrível Quiz 🚀
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
