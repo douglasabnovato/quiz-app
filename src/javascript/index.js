@@ -1,11 +1,8 @@
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn #button_play");
 const info_box = document.querySelector(".info_box");
-
 const highscores = document.querySelector("#highscores");
-console.log("highscores", highscores);
 const scoreTextPoint = document.getElementById("score");
-
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
@@ -14,6 +11,8 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const loader = document.getElementById("loader");
+loader.classList.add("hidden");
 
 // if startQuiz button clicked
 start_btn.onclick = () => {
@@ -29,10 +28,18 @@ exit_btn.onclick = () => {
 continue_btn.onclick = () => {
   info_box.classList.remove("activeInfo"); //hide info box
   quiz_box.classList.add("activeQuiz"); //show quiz box
-  showQuetions(0); //calling showQestions function
-  queCounter(1); //passing 1 parameter to queCounter
-  startTimer(15); //calling startTimer function
-  startTimerLine(0); //calling startTimerLine function
+  loader.classList.remove("hidden");
+
+  const myTimeout = setTimeout(startQuiz, 3000);
+
+  function startQuiz() {  
+    console.log("startQuiz")  
+    loader.classList.add("hidden");
+    showQuetions(0); //calling showQestions function
+    queCounter(1); //passing 1 parameter to queCounter
+    startTimer(15); //calling startTimer function
+    startTimerLine(0);
+  }
 };
 
 let timeValue = 15;
@@ -49,8 +56,6 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
 restart_quiz.onclick = () => {
   localStorage.setItem("mostRecentScore", userScore); /*go to the end page*/
-
-  console.log("userScore", userScore);
   return window.location.assign("./src/pages/end.html");
 };
 
@@ -85,8 +90,8 @@ next_btn.onclick = () => {
 
 // getting questions and options from array
 function showQuetions(index) {
+  loader.classList.add("hidden");
   const que_text = document.querySelector(".que_text");
-
   //creating a new span and div tag for question and option and passing the value using array index
   let que_tag =
     "<span>" +
@@ -125,7 +130,7 @@ let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 function optionSelected(answer) {
   clearInterval(counter); //clear counter
   clearInterval(counterLine); //clear counterLine
-  let userAns = answer.querySelector('.choice-text').textContent; //getting user selected option
+  let userAns = answer.querySelector(".choice-text").textContent; //getting user selected option
   let correcAns = questions[que_count].answer; //getting correct answer from array
   const allOptions = option_list.children.length; //getting all option items
   if (userAns == correcAns) {
