@@ -318,6 +318,17 @@ section .option_list .option .icon {
     border-color: #a42834;
 }
 
+.choice-prefix {
+    padding: 1rem 2rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+
 footer {
     height: 60px;
     padding: 0 30px;

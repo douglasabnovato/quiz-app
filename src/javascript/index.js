@@ -52,24 +52,6 @@ restart_quiz.onclick = () => {
 
   console.log("userScore", userScore);
   return window.location.assign("./src/pages/end.html");
-  /** 
-   * 
-   *   quiz_box.classList.add("activeQuiz"); //show quiz box
-  result_box.classList.remove("activeResult"); //hide result box
-  timeValue = 15;
-  que_count = 0;
-  que_numb = 1;
-  userScore = 0;
-  widthValue = 0;
-  showQuetions(que_count); //calling showQestions function
-  queCounter(que_numb); //passing que_numb value to queCounter
-  clearInterval(counter); //clear counter
-  clearInterval(counterLine); //clear counterLine
-  startTimer(timeValue); //calling startTimer function
-  startTimerLine(widthValue); //calling startTimerLine function
-  timeText.textContent = "Tempo Restante"; //change the text of timeText to Time Left
-  next_btn.classList.remove("show"); //hide the next button
-  */
 };
 
 // if quitQuiz button clicked
@@ -113,18 +95,18 @@ function showQuetions(index) {
     questions[index].question +
     "</span>";
   let option_tag =
-    '<div class="option"><span class="question">' +
+    '<div class="option"><p class="choice-prefix">A</p><p class="choice-text" data-number="1"><span class="question">' +
     questions[index].options[0] +
     "</span></div>" +
-    '<div class="option"><span class="question">' +
+    '<div class="option"><p class="choice-prefix">B</p><p class="choice-text" data-number="2"><span class="question">' +
     questions[index].options[1] +
-    "</span></div>" +
-    '<div class="option"><span class="question">' +
+    "</span></p></div>" +
+    '<div class="option"><p class="choice-prefix">C</p><p class="choice-text" data-number="3"><span class="question">' +
     questions[index].options[2] +
-    "</span></div>" +
-    '<div class="option"><span class="question">' +
+    "</span></p></div>" +
+    '<div class="option"><p class="choice-prefix">D</p><p class="choice-text" data-number="4"><span class="question">' +
     questions[index].options[3] +
-    "</span></div>";
+    "</span></p></div>";
   que_text.innerHTML = que_tag; //adding new span tag inside que_tag
   option_list.innerHTML = option_tag; //adding new div tag inside option_tag
 
@@ -143,16 +125,13 @@ let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 function optionSelected(answer) {
   clearInterval(counter); //clear counter
   clearInterval(counterLine); //clear counterLine
-  let userAns = answer.textContent; //getting user selected option
+  let userAns = answer.querySelector('.choice-text').textContent; //getting user selected option
   let correcAns = questions[que_count].answer; //getting correct answer from array
   const allOptions = option_list.children.length; //getting all option items
-
   if (userAns == correcAns) {
     //if user selected option is equal to array's correct answer
     userScore += 1; //upgrading score value with 1
-    //aqui
-    scoreTextPoint.innerHTML = (userScore * 10);
-    console.log("scoreTextPoint",userScore)
+    scoreTextPoint.innerHTML = userScore * 10;
     answer.classList.add("correct"); //adding green color to correct selected option
     answer.insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to correct selected option
     console.log("Correct Answer");
@@ -187,27 +166,27 @@ function showResult() {
     //creating a new span tag and passing the user score number and total question number
     let scoreTag =
       "<span>E parabéns!! 🎉, você fez <p>" +
-      (userScore * 10) +
+      userScore * 10 +
       "</p> de <p>" +
-      (questions.length * 10) +
+      questions.length * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
   } else if (userScore > 1) {
     // if user scored more than 1
     let scoreTag =
       "<span>E legal 😎, você fez  <p>" +
-      (userScore * 10) +
+      userScore * 10 +
       "</p> de <p>" +
-      (questions.length * 10) +
+      questions.length * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   } else {
     // if user scored less than 1
     let scoreTag =
       "<span>e desculpe 😐, Você fez apenas <p>" +
-      (userScore * 10) +
+      userScore * 10 +
       "</p> de <p>" +
-      (questions.length * 10) +
+      questions.length * 10 +
       "</p></span>";
     scoreText.innerHTML = scoreTag;
   }

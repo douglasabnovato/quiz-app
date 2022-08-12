@@ -25,7 +25,7 @@
 - [x] Estilização da página maiores pontuações
 - [ ] Componente Loader para as transições de páginas com requisição
 - [x] Página Quiz - Adicionar a pontuação em tempo real
-- [ ] Página Quiz - Adicionar letras para identificar opção de respostas
+- [x] Página Quiz - Adicionar letras para identificar opção de respostas
 - Página Quiz - Adicionar barra de progresso de questões a responder: desisit de inserir uma segunda barra de progresso na tela.
 - [x] Página End - Salvar Pontuação
 - [x] Estilização da página Salvar Pontuação
