@@ -20,6 +20,8 @@
 }
 
 /* Home - index.html */
+ 
+
 .start_btn,
 .info_box,
 .quiz_box,
@@ -40,6 +42,7 @@
     gap: 7px;
 }
 
+.start_btn.activeInfo,
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult {
@@ -316,6 +319,17 @@ section .option_list .option .icon {
     border-color: #a42834;
 }
 
+.choice-prefix {
+    padding: 1rem 2rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text {
+    padding: 1rem;
+    width: 100%;
+}
+
 footer {
     height: 60px;
     padding: 0 30px;
@@ -337,6 +351,18 @@ footer .total_que span p {
 
 footer .total_que span p:first-child {
     padding-left: 0px;
+} 
+
+footer .hud-item {
+    display: inline-block;
+}
+
+footer .hud-prefix {
+    text-align: center;
+}
+
+footer .hud-main-text {
+    text-align: center;
 }
 
 footer button {
@@ -447,3 +473,35 @@ footer button.show {
 }
 
 /* end - high Scores */
+
+#page-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#loader {
+    margin-top: 4rem;
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.hidden {
+    display: none;
+} 

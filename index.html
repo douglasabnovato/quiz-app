@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
-    <title>Quiz App</title>
+    <title>Incrível Quiz</title>
     <link rel="stylesheet" href="./src/styles/index.css" />
     <!-- FontAweome CDN Link for Icons-->
     <link
@@ -13,10 +13,13 @@
     />
   </head>
   <body id="page-home">
+    <div id="loader"></div>
     <!-- start Quiz button -->
     <div class="start_btn">
       <button class="btn" id="button_play">Jogar o Quiz</button>
-      <a class="btn" id="button_score"href="./src/pages/highscores.html">Maiores Pontuações</a>
+      <a class="btn" id="button_score" href="./src/pages/highscores.html"
+        >Maiores Pontuações</a
+      >
     </div>
     <!-- Info Box -->
     <div class="info_box">
@@ -34,9 +37,7 @@
         <div class="info">
           4. Você não pode sair do Quiz enquanto estiver jogando.
         </div>
-        <div class="info">
-          5. Você receberá 10 pontos por resposta correta.
-        </div>
+        <div class="info">5. Você receberá 10 pontos por resposta correta.</div>
       </div>
       <div class="buttons">
         <button class="quit">Sair do Quiz</button>
@@ -65,6 +66,9 @@
       <footer>
         <div class="total_que">
           <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+        <div id="hud-item">
+          <p class="hud-prefix">Pontuação <span class="hud-main-text" id="score">0</span></p>
         </div>
         <button class="next_btn">Próxima Questão</button>
       </footer>

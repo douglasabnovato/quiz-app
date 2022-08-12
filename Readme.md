@@ -1,9 +1,9 @@
 <h3 align="center">
-  Quiz App 🚀
+  Incrível Quiz 🚀
 </h3>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-C.jpg">
 </p>  
 
 ---
@@ -21,17 +21,27 @@
 
 #### Tarefas
 
-- [ ] Página Home
-- [ ] Componente Loader para as transições de páginas com requisição
-- [ ] Página Quiz - Adicionar a pontuação em tempo real
-- [ ] Página Quiz - Adicionar letras para identificar opção de respostas
-- [ ] Página Quiz - Adicionar barra de progresso de questões a responder
-- [ ] Página End - Salvar Pontuação
+- [x] Página Home: botão jogar o quiz e o maiores pontuações
+- [x] Estilização da página maiores pontuações
+- [x] Componente Loader para as transições de páginas com requisição e com timer
+- [x] Página Quiz - Adicionar a pontuação em tempo real
+- [x] Página Quiz - Adicionar letras para identificar opção de respostas
+- Página Quiz - Adicionar barra de progresso de questões a responder: desisit de inserir uma segunda barra de progresso na tela.
+- [x] Página End - Salvar Pontuação
+- [x] Estilização da página Salvar Pontuação
+- [x] Ajustar requisição das questões com um file js: usar as questões no arquivo json como fonte e passar para o padrão.
+- Ajustar requisição das questões com json: usar como fonte de questões
 
 #### Telas
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-B.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-3-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Info" title="#quiz-app" src="./.github/tela-2-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-4-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-5-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-6-C.jpg" width="400px">
+  <img alt="versão 2.0 do projeto - Quiz" title="#quiz-app" src="./.github/tela-7-C.jpg" width="400px">
 </p>
 
 #### Identidade Visual
