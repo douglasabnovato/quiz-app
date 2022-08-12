@@ -8,11 +8,22 @@
 
 ---
 
-### Sobre projeto 
+### Próximo passo
 
-Um quiz que consome as questões da api Open Trivia DB API. Salva os ponto no Local Storage.
-Utiliza uma progress bar para as perguntas, uma spinning loader icon construída manualmente, os elementos do HTML gerados dinamicamente com JS.
+- [ ] Responsividade
+- [ ] Incorporar questões via json
+- [ ] Mais de um jogador simultâneo
 
+### Sobre projeto - v1.0-quiz-app
+
+- Um quiz que consome as questões da api Open Trivia DB API. 
+- Salva os ponto no Local Storage.
+- Tarefas:
+ - uma progress bar para as perguntas
+ - uma spinning loader icon construída manualmente
+ - os elementos do HTML gerados dinamicamente com JS
+
+- Telas</br>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="versão 1.0 do projeto - Home" title="#quiz-app" src="./.github/tela-1.jpg" width="400px">
   <img alt="versão 1.0 do projeto - Loading" title="#quiz-app" src="./.github/tela-2.jpg" width="400px">
@@ -53,12 +64,6 @@ Utiliza uma progress bar para as perguntas, uma spinning loader icon construída
 - [x] 12.6. `https://opentdb.com/`
 - [x] 13. Create a Spinning Loader. 
 - [x] 14. Closing
-
-#### Próximo passo
-
-- [ ] Responsividade
-- [ ] Incorporar questões via json
-- [ ] Mais de um jogador simultâneo
 
 ---
 
