@@ -33,11 +33,9 @@ continue_btn.onclick = () => {
   start_btn_home.classList.add("hidden");
 
   loader.classList.remove("hidden");
-  console.log("myTimeout")  
   const myTimeout = setTimeout(startQuiz, 3000);
 
-  function startQuiz() {  
-    console.log("startQuiz")  
+  function startQuiz() {    
     loader.classList.add("hidden");
     start_btn_home.classList.remove("hidden");
     quiz_box.classList.add("activeQuiz"); //show quiz box

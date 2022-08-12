@@ -29,6 +29,9 @@
 - Página Quiz - Adicionar barra de progresso de questões a responder: desisit de inserir uma segunda barra de progresso na tela.
 - [x] Página End - Salvar Pontuação
 - [x] Estilização da página Salvar Pontuação
+- [ ] Ajustar o reloader das questões com json
+- [ ] Ajustar o reloader das questões com um file
+- [ ] Ajustar o reloader das questões com api
 
 #### Telas
 
