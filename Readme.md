@@ -34,9 +34,9 @@
 - [Inspiração - Introducing a Multiplayer Quiz App Built on Salesforce Technology](https://github.com/developerforce/quiz-player-app)
 - [Inspiração - Tutorial: how to build a multi-player quiz app with Sails.js](https://www.joanmira.com/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/)
 - [Inspiração - Tutorial: how to build a multi-player quiz app with Sails.js](https://github.com/gazpachu/quizwars)
-- [Inspiração - multiplayer quiz app architecture - ably](https://ably.com/topic/multiplayer-quiz-app-architecture)
-- [Inspiração - multiplayer quiz app architecture - ably](https://github.com/ably-labs/realtime-quiz-framework)
-- [Inspiração - multiplayer quiz app architecture - ably](https://quiz.ably.dev/)
+- [Inspiração - multiplayer quiz app architecture - Ably](https://ably.com/topic/multiplayer-quiz-app-architecture)
+- [Inspiração - multiplayer quiz app architecture - Ably](https://github.com/ably-labs/realtime-quiz-framework)
+- [Inspiração - multiplayer quiz app architecture - Ably](https://quiz.ably.dev/)
 
 ---
 
