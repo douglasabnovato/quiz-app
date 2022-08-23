@@ -10,6 +10,7 @@
 
 ### Próximo Passo
 
+- personalizar layout para determinado tema
 - tornar um quiz multiplayer
 - pesquisar sobre socket.io
 - pesquisar sobre incorporar em uma spa estilizada
