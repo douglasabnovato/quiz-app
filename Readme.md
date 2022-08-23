@@ -10,7 +10,9 @@
 
 ### Próximo Passo
 
-- tornar um quiz multiplayer (pesquisar sobre socket.io)
+- tornar um quiz multiplayer
+- pesquisar sobre socket.io
+- pesquisar sobre incorporar em uma spa estilizada
 
 #### Identidade Visual
 
